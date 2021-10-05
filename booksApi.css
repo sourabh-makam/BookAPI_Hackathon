@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-section::before{
+    content:"";
+    background: url("/Hackathon/books-to-read-in-20s.jpg") center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top:0;
+    left: 0;
+    opacity: 0.42;
+}
+
+.container-fluid {
+    height:100px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #161418 0%, #51d5da 100%);
+    justify-content: space-between;
+    
+}
+
+.site-logo {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 10px;
+    padding: 10px;
+    
+    
+}
+
+.bookDetailsContainer::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(85, 43, 43);
+    opacity: 0.42;
+
+}
+
+
+.bookDetailsContainer {
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:900;
+    background: rgb(63, 238, 251);
+background: linear-gradient(90deg, rgb(91, 214, 173) 0%, rgba(252,70,107,0.1829774145986519) 100%);
+    
+   
+    
+}
+
+span {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.links {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.links:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+#about {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+

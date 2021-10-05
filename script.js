@@ -6,7 +6,7 @@ var logo = document.createElement("div");
 logo.setAttribute("class", "d-inline logo-container col-md-4 col-sm-3 col-xs-2");
 var logoImg = document.createElement("img");
 logoImg.setAttribute("class", "site-logo")
-logoImg.setAttribute("src", "/Hackathon/Bookopedia_logo_1.JPG")
+logoImg.setAttribute("src", "Bookopedia_logo_1.JPG")
 logo.append(logoImg);
 var footerContainer = document.createElement("div");
 var anchors = document.createElement("a");

@@ -16,7 +16,7 @@ body {
 }
 
 .container-fluid {
-    height:100px;
+    height:75px;
     display: flex;
     align-items: center;
     background: linear-gradient(90deg, #161418 0%, #51d5da 100%);
@@ -25,8 +25,8 @@ body {
 }
 
 .site-logo {
-    height: 100px;
-    width: 150px;
+    height: 75px;
+    width: 120px;
     border-radius: 5px;
     margin-left: 15px;
 }
@@ -57,7 +57,7 @@ body {
     padding: 5px;
     border: 1px black solid;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Roboto Slab', serif;
     font-weight:900;
     background: rgb(63, 238, 251);
@@ -74,7 +74,7 @@ span {
 }
 
 .links {
-    font-size: 28px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     margin-right: 100px;
@@ -88,7 +88,7 @@ span {
 }
 
 #about {
-    font-size: 30px;
+    font-size: 20px;
     background-color: black;
     color: white;
     margin: 0;
